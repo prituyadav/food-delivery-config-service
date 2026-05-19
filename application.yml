@@ -1,1 +1,5 @@
-server.port=9090
+server.port=8079
+
+spring.application.name=restaurant-service
+
+eureka.client.service-url.defaultZone=http://localhost:8077/eureka
